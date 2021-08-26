@@ -15,21 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[静态页面托管站-cloudflare pages]]></title>
-    <url>%2F2021%2F%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E6%89%98%E7%AE%A1%E7%AB%99-cloudflare%20pages%2F</url>
-    <content type="text"><![CDATA[&emsp;&emsp; 新发现个好用的静态站点托管网站，cloudflare的pages，比他家主业CDN还快一些，可能是少了回源这个步骤。免费分配的 .pages.dev域名还没被强，也不会随时抽风。构建功能支持的挺多的，可惜没有hexo。不过我都是本机渲染然后公开public目录。目前只支持github的仓库代码If you are not using a framework, you may input exit 0 into the Build command field. 123456789101112131415161718192021222324Framework/tool Build command Build output directoryAngular (Angular CLI) ng build distBrunch brunch build --production publicDocusaurus npm run build buildEleventy eleventy _siteEmber.js ember build distExpo expo build:web web-buildGatsby gatsby build publicGitBook gitbook build _bookGridsome gridsome build distHugo hugo publicJekyll jekyll build _siteMkdocs mkdocs build siteNext.js (Static HTML Export) next build &amp;&amp; next export outNuxt.js nuxt generate distPelican pelican $content [-s settings.py] outputReact (create-react-app) npm run build buildReact Static react-static build distSlate ./deploy.sh buildSvelte npm run build publicUmi umi build distVue npm run build publicVuePress vuepress build $directory $directory/.vuepress/dist 静态网站托管最方便的还是github，无限站点，可绑定域名，免费安全证书。只可惜github已经无法正常使用了。经常访问不了，或者慢到等于不能用。虽然有CDN可以上。国内替代品gitee的page现在已经关停了，不能用自己的域名还有各种限制。 &emsp;&emsp;虽然放到VPS上面也不会占用多少资源，但是能长期稳定免费使用的，cloudflare pages算是一个优先的选项。而且，cloudflare的CDN免费账户必须设置转移到他家的域名解析服务器上，pages功能却并没有这个限制。此外，cloudflare pages会自动检测你的仓库的代码变动，自动更新页面，而不必去手动点击更新。 &emsp;&emsp;]]></content>
-      <categories>
-        <category>page</category>
-      </categories>
-      <tags>
-        <tag>static</tag>
-        <tag>免费</tag>
-        <tag>html</tag>
-        <tag>静态</tag>
-        <tag>网站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[静态页面托管站-unicloud]]></title>
     <url>%2F2021%2F%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E6%89%98%E7%AE%A1%E7%AB%99-unicloud%2F</url>
     <content type="text"><![CDATA[&emsp;&emsp; 后台使用的阿里云的serverless和COS CDN,也可以选腾讯云，但是腾讯云免费流量有点少，限制多。 ‘’’html‘’’]]></content>
@@ -45,9 +30,24 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[静态页面托管站-cloudflare pages]]></title>
+    <url>%2F2021%2F%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E6%89%98%E7%AE%A1%E7%AB%99-cloudflare%20pages%2F</url>
+    <content type="text"><![CDATA[&emsp;&emsp; 新发现个好用的静态站点托管网站，cloudflare的pages，比他家主业CDN还快一些，可能是少了回源这个步骤。免费分配的 .pages.dev域名还没被强，也不会随时抽风。构建功能支持的挺多的，可惜没有hexo。不过我都是本机渲染然后公开public目录。目前只支持github的仓库代码 If you are not using a framework, you may input exit 0 into the Build command field. 123456789101112131415161718192021222324Framework/tool Build command Build output directoryAngular (Angular CLI) ng build distBrunch brunch build --production publicDocusaurus npm run build buildEleventy eleventy _siteEmber.js ember build distExpo expo build:web web-buildGatsby gatsby build publicGitBook gitbook build _bookGridsome gridsome build distHugo hugo publicJekyll jekyll build _siteMkdocs mkdocs build siteNext.js (Static HTML Export) next build &amp;&amp; next export outNuxt.js nuxt generate distPelican pelican $content [-s settings.py] outputReact (create-react-app) npm run build buildReact Static react-static build distSlate ./deploy.sh buildSvelte npm run build publicUmi umi build distVue npm run build publicVuePress vuepress build $directory $directory/.vuepress/dist 静态网站托管最方便的还是github，无限站点，可绑定域名，免费安全证书。只可惜github已经无法正常使用了。经常访问不了，或者慢到等于不能用。虽然有CDN可以上。国内替代品gitee的page现在已经关停了，不能用自己的域名还有各种限制。 &emsp;&emsp;虽然放到VPS上面也不会占用多少资源，但是能长期稳定免费使用的，cloudflare pages算是一个优先的选项。而且，cloudflare的CDN免费账户必须设置转移到他家的域名解析服务器上，pages功能却并没有这个限制。此外，cloudflare pages会自动检测你的仓库的代码变动，自动更新页面，而不必去手动点击更新。 &emsp;&emsp;]]></content>
+      <categories>
+        <category>page</category>
+      </categories>
+      <tags>
+        <tag>static</tag>
+        <tag>免费</tag>
+        <tag>html</tag>
+        <tag>静态</tag>
+        <tag>网站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[WordPress建立记录（1）]]></title>
     <url>%2F2021%2FWordPress%E5%BB%BA%E7%AB%8B%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[]]></content>
       <categories>
         <category>website</category>
       </categories>
@@ -117,7 +117,7 @@
   <entry>
     <title><![CDATA[使用免费空间创建博客网站]]></title>
     <url>%2F2021%2F%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99-byet%2F</url>
-    <content type="text"><![CDATA[&emsp;&emsp;profreehost 据说是byet的分销，与其他免费主机相比，没有空间大小、流量和域名数量的限制，数据库也没有限制（写着不支持外网访问，我也没有试过）。byet官网写的有空间大小和流量限制，实际注册后也是没有的。还有一家叫infinityfree，也是同样。 &emsp;&emsp;这三家后台都是cPannel面板，长得一模一样，可选的域名有些区别。最开始用的就是profreehost，原本以为byet是东家会有些优势，但是试过后发现没有好记的域名，当然都是免费的二级域名啦。另外感觉Profreehost的打开速度貌似更快一些，byet有时候还会打不开。So，还是继续用Profreehost的unaux.com吧。infinityfree这家注册了没有试用，反正都一样。 BUG 1 删除域名后文件夹无法删除，而且被删除的子域名也是无法重新注册的。所以新建子域名的话还是慎重的好。虽说子域名数量不限，但是文件夹里面目录太多的话还是很乱的。不过后来发现子域名的文件夹名字可以更改，清空目录后改个Z开头的名字让废弃的子域名目录排在后面显得没那么杂乱无章。 BUG 2 我现在已经无法使用alias域名了，也就是说要么用自己的域名建站，要么用免费申请的二级域名。废了很多时间来测试原因，起初以为是WordPress不支持多域名，然后折腾wp-config.php，实际上呢404页面是Profreehost定义的，也就是说域名解析已经到了英国。然后旁边的静态站点的alias域名也是404.然后新建个测试站点，unaux.com访问正常，新解析个自己的域名，还是无法访问。那么只能说明，Profreehost已经不让我再用alias域名功能了。可能我新建的或者绑定的域名太多了吧。论坛上满满都是域名被blocked的。定期备份防blocked是首要任务。 BUG 3 SSL证书难加。生成私钥和CSR（重复点了N次才出来），然后 https://freessl.cn 上面申请TrustAsia有效期一年，但是文件验证的方法一直显示检测中。明明只是个链接get一行字符串而已。百度云加速上面倒是很简单申请了，未备案域名又无法加速CDN。https://csr.chinassl.net申请的chinassl签名的浏览器又不认。（key是server上部署的私钥，CSR是与key同时生成的，用来发给签名机构申请证书的，Certificate则是类似TrustAsia的机构签发的证书，有有效期。）]]></content>
+    <content type="text"><![CDATA[&emsp;&emsp;profreehost 据说是byet的分销，与其他免费主机相比，没有空间大小、流量和域名数量的限制，数据库也没有限制（写着不支持外网访问，我也没有试过）。byet官网写的有空间大小和流量限制，实际注册后也是没有的。还有一家叫infinityfree，也是同样。 &emsp;&emsp; 这三家后台都是cPannel面板，长得一模一样，可选的域名有些区别。最开始用的就是profreehost，原本以为byet是东家会有些优势，但是试过后发现没有好记的域名，当然都是免费的二级域名啦。另外感觉Profreehost的打开速度貌似更快一些，byet有时候还会打不开。So，还是继续用Profreehost的unaux.com吧。infinityfree这家注册了没有试用，反正都一样。 BUG 1 删除域名后文件夹无法删除，而且被删除的子域名也是无法重新注册的。所以新建子域名的话还是慎重的好。虽说子域名数量不限，但是文件夹里面目录太多的话还是很乱的。不过后来发现子域名的文件夹名字可以更改，清空目录后改个Z开头的名字让废弃的子域名目录排在后面显得没那么杂乱无章。 BUG 2 我现在已经无法使用alias域名了，也就是说要么用自己的域名建站，要么用免费申请的二级域名。废了很多时间来测试原因，起初以为是WordPress不支持多域名，然后折腾wp-config.php，实际上呢404页面是Profreehost定义的，也就是说域名解析已经到了英国。然后旁边的静态站点的alias域名也是404.然后新建个测试站点，unaux.com访问正常，新解析个自己的域名，还是无法访问。那么只能说明，Profreehost已经不让我再用alias域名功能了。可能我新建的或者绑定的域名太多了吧。论坛上满满都是域名被blocked的。定期备份防blocked是首要任务。 BUG 3 SSL证书难加。生成私钥和CSR（重复点了N次才出来），然后 https://freessl.cn 上面申请TrustAsia有效期一年，但是文件验证的方法一直显示检测中。明明只是个链接get一行字符串而已。百度云加速上面倒是很简单申请了，未备案域名又无法加速CDN。https://csr.chinassl.net申请的chinassl签名的浏览器又不认。（key是server上部署的私钥，CSR是与key同时生成的，用来发给签名机构申请证书的，Certificate则是类似TrustAsia的机构签发的证书，有有效期。）]]></content>
       <categories>
         <category>web server</category>
       </categories>
