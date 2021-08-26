@@ -75,7 +75,7 @@
   <entry>
     <title><![CDATA[serverless的站点-cloudflare的workers和KV]]></title>
     <url>%2F2021%2Fserverless%E7%9A%84%E7%AB%99%E7%82%B9-cloudflare%E7%9A%84workers%E5%92%8CKV%2F</url>
-    <content type="text"><![CDATA[cf_blog]]></content>
+    <content type="text"><![CDATA[cf_blog cloudflare的worker每天10万的免费额度]]></content>
       <categories>
         <category>git</category>
       </categories>
