@@ -32,7 +32,7 @@
   <entry>
     <title><![CDATA[静态页面托管站-unicloud]]></title>
     <url>%2F2021%2F%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E6%89%98%E7%AE%A1%E7%AB%99-unicloud%2F</url>
-    <content type="text"><![CDATA[&emsp;&emsp; 后台使用的阿里云的serverless和COS CDN,也可以选腾讯云，但是腾讯云免费流量有点少，限制多。 ‘’’html‘’’]]></content>
+    <content type="text"><![CDATA[&emsp;&emsp; 后台使用的阿里云的serverless和COS CDN,也可以选腾讯云，但是腾讯云免费流量有点少，限制多。新建服务空间的话默认服务商是阿里云的。 自带云数据库，云函数，云存储，跨域配置，前端网页托管，Redis扩展。这样看起来比cloudflare的workers外加KV存储更方便，不过国内服务商说变就变，价格也是朝令夕改，所以应该没人会做类似cf-blog那样的程序来折腾。‘’’html‘’’]]></content>
       <categories>
         <category>page</category>
       </categories>
